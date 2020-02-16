@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>my first webpage</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- import java script -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="../website1/mywebsite-classes.css" />
+
+</head>
+
+<body>
+
+
+  <div class="container">
+
+    <div class="row alert alert-warning" role="alert">
+      <div class="col">
+        WELCOME TO MY WEBSITE
+      </div>
+
+  
+    </div>
+
+    <div class="row big_div">
+
+      <div class="col-md-6">
+        <img class="aboutmephoto" src="../website1/img/instagram1.jpg">   
+      </div>
+
+
+      <div class="col-md-6">
+        <p> My name is Daniela Botnariuc and photography is one of my hobbies. You can see some of my work on this website. I hope you like it!</p>
+      </div>
+
+
+      
+    </div>
+
+
+    
+  <div class="row big_div">
+
+    <div class="col big_div">
+        <p></p>
+    </div>
+
+
+    <div class="col ">
+      <div class="row">
+         
+
+        <button class="btn btn-primary col m-1 tablinks" type="button" onclick="openPhoto(event, 'Landscapes')"> Landscapes </button>
+        <button class="btn btn-primary col m-1 tablinks" type="button" onclick="openPhoto(event, 'People')"> People </button>
+        <button class="btn btn-primary col m-1 tablinks" type="button" onclick="openPhoto(event, 'Food')"> Food </button>
+
+      </div>
+    </div>
+
+  
+
+    <div class="col">
+        <p></p>
+    </div>
+      
+  </div> 
+
+      
+
+  <div id="Landscapes" class="tabcontent">
+        
+    <div class="row">
+
+        <div class="col">
+          <img class="imgwidth m-1" src="../website1/img/DSC04211.jpg" >
+          <img class="imgwidth m-1" src="../website1/img/DSC04587.jpg" >
+        </div>
+
+        <div class="col">
+          <img class="imgwidth m-1" src="../website1/img/DSC04657.jpg" >
+          <img class="imgwidth m-1" src="../website1/img/DSC05074.jpg" >
+        </div>
+
+        
+         
+     
+    </div>
+  </div>
+   
+
+  <div id="People" class="tabcontent">
+        
+    <div class="row">
+
+        <div class="col">
+            <img class="imgwidth m-1" src="https://image.cnbcfm.com/api/v1/image/106161048-1570044055220twenty20_8809e5db-f5bb-4c80-8563-2b1d9c8d189b.jpg?v=1570044137&w=1400&h=950" >
+            <img class="imgwidth m-1" src="https://www.spring.org.uk/images/woman_glasses.jpg" >
+            <img class="imgwidth m-1" src="https://pbs.twimg.com/media/DfbXL1vX4AA069Y.jpg">
+
+
+        </div>
+
+        <div class="col">
+            <img class="imgwidth m-1" src="https://data.whicdn.com/images/230490967/original.jpg" >
+            <img class="imgwidth m-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTo_vroQBENsaP4o1xb0Z35lH5v7kvViE89csKDG3ZFT7uHq1UU" >
+        </div>
+
+      
+
+    </div>
+  </div>
+
+  <div id="Food" class="tabcontent">
+
+        <div class="row">
+
+        <div class="col">
+            <img class="imgwidth m-1" src="https://realfood.tesco.com/media/images/RFO-LargeHero-1400x919-ChorizoChicken-mini-dc9a0314-51b5-4ae5-a8e8-77b8dee768e6-0-1400x920.jpg" >
+            <img class="imgwidth m-1" src="https://playswellwithbutter.com/wp-content/uploads/2017/06/summer-arugula-salad-with-basil-vinaigrette.jpg" >
+            <img class="imgwidth m-1" src="https://i.pinimg.com/originals/a1/8e/ce/a18ece0e1b866f220bd0357fd6482133.jpg">
+
+
+        </div>
+
+        <div class="col">
+            <img class="imgwidth m-1" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-food-clean-eating-selection-in-wooden-box-royalty-free-image-854725398-1551469707.jpg?crop=0.668xw:1.00xh;0.288xw,0&resize=640:*" >
+            <img class="imgwidth m-1" src="https://dg.imgix.net/let-not-food-destroy-the-body-egu11qj4-en/landscape/let-not-food-destroy-the-body-egu11qj4-1bf920a0e6871d3d5af01ec847a8d908.jpg?ts=1574201747&ixlib=rails-4.0.0&auto=format%2Ccompress&fit=min&w=700&h=394&dpr=2&ch=Width%2CDPR" >
+            <img class="imgwidth m-1" src="https://dennistheprescott.files.wordpress.com/2018/04/a19i1275-edit1.jpg?w=680" >
+        </div>
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- JAVA SCRIPT FUNCTION FOR THE BUTTONS -->
+    <script>
+    function openPhoto(evt, PhotoType) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(PhotoType).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+
+
+
+
+    <div class="row big_div">
+
+      <button type="button" class="col-md-3 btn btn-outline-primary"> Primary </button>
+      <button type="button" class="col-md-3 btn btn-outline-secondary"> Secondary </button>
+      <button type="button" class="col-md-3 btn btn-outline-success"> Success </button>
+      <button type="button" class="col-md-3 btn btn-outline-danger"> Danger </button>
+      
+
+    </div>
+
+
+    <div class="row big_div">
+      
+      <div class="col-md-3">
+        <img src="https://www.thoughtco.com/thmb/xYOvozShc5Zo86rD53lqcFFmp5A=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/abstract-paper-flower-pattern-656688606-5acfba2eae9ab80038461ca0.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="col-md-6">
+        <img src="https://www.thoughtco.com/thmb/xYOvozShc5Zo86rD53lqcFFmp5A=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/abstract-paper-flower-pattern-656688606-5acfba2eae9ab80038461ca0.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="col-md-3">
+        <img src="https://www.thoughtco.com/thmb/xYOvozShc5Zo86rD53lqcFFmp5A=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/abstract-paper-flower-pattern-656688606-5acfba2eae9ab80038461ca0.jpg" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+</body>
+</html>

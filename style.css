@@ -1,0 +1,152 @@
+body {
+	color: white;
+	background-color: black;
+	background-image: url("https://images.wallpaperscraft.com/image/sunflowers_field_sunset_123231_2780x2780.jpg");
+	background-repeat: no-repeat;
+  	background-size: 100%;
+  	background-attachment: fixed;
+
+}
+
+/*element selectors change all the selectors*/
+h1 {
+	color: red;
+	font-size: 30px;
+	font-family: 'Arial Narrow';
+	font-style: italic;
+	text-align: center;
+
+}
+
+h2 {
+	text-align: center;
+	color: white;
+
+}
+
+ul {
+
+	color: white;
+}
+
+form {
+	color: white;
+}
+
+.aboutmephoto {
+	width: 90%;
+	float: center;
+
+	border-style: solid;
+	border-width: 2px;
+	border-color: orange;
+
+	/*center the image*/
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+
+
+
+/*CREATE THE BOX ABOUT ME*/
+
+* {
+  box-sizing: border-box;
+}
+
+.box1 {
+  float: left;
+  width: 50%;
+  heigh: 50%;
+  padding: 20px;
+  background-color: rgba(255, 204, 153, 0.5); 
+  /*the 4th element in RGB is the opacity*/
+ 
+ 
+}
+
+.box2 {
+  float: right;
+  width: 50%;
+  heigh: 50%;
+  padding: 20px;
+  background-color: rgba(255, 204, 153, 0.5); 
+  /*the 4th element in RGB is the opacity*/
+ 
+ 
+}
+
+
+
+.col-md-6 {
+background-color: rgba(255, 204, 153, 0.5);
+}
+
+/*CREATE THE TABS*/
+/* Style the tab */
+
+
+.tab {
+
+    background-image: linear-gradient(#FEFEFE, #F1F1F1);
+    margin: auto;
+    overflow: hidden;
+    border-radius: 6px;
+    border-color: #DEDEDE;
+    display: table;
+    width: 60%;
+    margin-bottom: 20px
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 100px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+ 
+  
+}
+
+/*the photos in the tabs*/
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.imgwidth {
+	width: 100%;
+}
+
+.big_div{
+	margin-bottom: 30px;
+}
